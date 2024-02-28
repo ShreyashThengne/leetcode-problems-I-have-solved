@@ -14,7 +14,6 @@
 --     limit 1
 -- )
 SELECT id, count(id) as num
--- SELECT *
 FROM (
     (SELECT requester_id as id FROM RequestAccepted)
     UNION ALL
