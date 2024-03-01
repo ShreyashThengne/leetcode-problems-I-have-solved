@@ -7,7 +7,6 @@ public:
 
         for (int i = 0; i < size; i++){
             sum += nums[i];
-            cout<<max_sum<<endl;
             if (sum > max_sum){
                 max_sum = sum;
             }
