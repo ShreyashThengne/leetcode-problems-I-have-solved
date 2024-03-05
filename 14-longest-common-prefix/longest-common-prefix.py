@@ -4,7 +4,8 @@ class Solution:
         first = strs[0]
         last = strs[-1]
         res = ""
-        for i in range(min(len(first), len(last))):
+        n = min(len(first), len(last))
+        for i in range(n):
             if first[i] != last[i]: return res
             res += first[i]
         return res
